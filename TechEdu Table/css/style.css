@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.content-table{
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 45px solid transparent;
+    border-image: linear-gradient(4deg,#7b7575,#c8c8c8,white);
+    border-image-slice:1 ;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+.content-table thead tr{
+    background-color: blue;
+    color: white;
+    font-size: 1.3rem;
+}
+tr:nth-of-type(even){
+    background-color: #b9f0f9;
+}
